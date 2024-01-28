@@ -1,0 +1,62 @@
+IDE - interactive development env -> Pycharm, spyder, jupyter,notepad++
+Interpreter -> Compilier
+PEP8 -> rule book
+Ctrl+Atl+L -> formatting the file
+Ctrl+/ -> comment the line
+Ctrl+D -> copies the line and pastes it in the next line
+
+Github
+
+Day 1:
+-------------------------------------------------------------
+Variables -> name which holds a value
+
+Datatypes:
+type() -> function where it will give you the datatype
+Numeric
+    Integer -> +,-,0
+    Float -> decimal
+Text type
+    String -> enclosed inside "", the value inside "" can be anything
+Boolean type
+    True (1)
+    False (0)
+Sequence Types:
+    list -> [] -> editable
+    tuple -> () -> cannot be editable
+Mapping Type:
+    Dictionary -> key:value
+None:
+    Nothing
+
+Operators:
+    1. Arithmetic Operators -> +,-,*,/
+        // -> floor division
+        % -> modulus
+        ** -> exponentiation
+
+    Floor division
+
+    3/2 -> 1.5
+    3//2 -> 1
+
+    modulus -> reminder
+    13%5 -> 3
+    3%2 -> 1
+
+    2)3(1                          5)13(2              45)12(0
+      2                              10                    0
+      --                            ----                  ---
+      1    -> reminder                3                    12
+
+    2. Comparison Operator
+    = -> equal    -> assigning
+    == -> equals -> comparing
+    comparison operator the output is always boolean
+
+    >,<,==,>=,!=,<=
+
+    3. Logical Operator -> Boolean
+    AND   -> x and y
+    OR
+    NOT
