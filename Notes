@@ -5,6 +5,9 @@ Ctrl+Atl+L -> formatting the file
 Ctrl+/ -> comment the line
 Ctrl+D -> copies the line and pastes it in the next line
 
+Todo:
+    1. Identity Operators in List
+
 Github
 
 Day 1:
@@ -60,3 +63,30 @@ Operators:
     AND   -> x and y
     OR
     NOT
+
+    4. Assignment Operators
+    = -> assigning
+
+
+Conditional Statements:
+
+1. Simple If
+    Syntax:
+
+    if condition:
+        statements
+        statements
+        statements
+
+2. if...else statements
+
+    if condition:
+        statements
+        statements
+        statements
+    else:
+        statements
+        statements
+        statements
+
+input function -> input()
