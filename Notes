@@ -90,3 +90,17 @@ Conditional Statements:
         statements
 
 input function -> input()
+
+3. elif statement -> else if
+
+    if condition:
+        block of code
+    elif condition:
+        block of code
+    else:
+        block of code
+
+    1. for every if you can have only one else
+    2. you can have multiple elif's
+
+4. if else ladder
