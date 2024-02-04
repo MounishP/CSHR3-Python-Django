@@ -104,3 +104,18 @@ input function -> input()
     2. you can have multiple elif's
 
 4. if else ladder
+
+Loops in Python:
+
+    1. For loop
+    2. While loop
+
+For Loop:
+    Syntax:
+
+        for item in list:
+            action  -> block of code
+
+    range(start,stop-1) -> range(1,100) -> [1,2,3,...99]
+
+    Break(stop) & Continue(Skip):

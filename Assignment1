@@ -1,3 +1,6 @@
 1. WAPP to check if a year is a leap year
 2. WAPP to determine the type of triangle based on sides
+    Equilateral triangle -> a = b = c
+    Isosceles triangle -> a = b or b = c or a = c
+    Scalene triangle
 3. WAPP to check if a number is prime number or not
