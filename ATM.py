@@ -6,7 +6,10 @@ Welcome
 """
 
 originalPin = 9595
-for chance in range(1,4):
+# for chance in range(1,4):
+count = 1
+
+while count <= 3:
     pin = int(input("Enter the pin: "))
     if originalPin == pin:
         print("************************************************")
@@ -18,3 +21,6 @@ for chance in range(1,4):
         break
     else:
         print("Incorrect pin")
+        count = count + 1
+else:
+    print("Card is blocked. Contact branch.")

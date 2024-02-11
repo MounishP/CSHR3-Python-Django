@@ -119,3 +119,43 @@ For Loop:
     range(start,stop-1) -> range(1,100) -> [1,2,3,...99]
 
     Break(stop) & Continue(Skip):
+
+While Loop:
+    A 'while' loop is used to repeatedly execute a block of code as long as a given condition is true.
+
+    Syntax:
+        while condition:
+            block of code
+
+List:
+    A list is a mutable, ordered collection of elements. Elements can be of different datatypes and
+    can be modified, added and removed.
+    List is enclosed in big brackets  [].
+
+Tuple:
+    A list is a immutable, ordered collection of elements. Elements can be of different datatypes and
+    cannot be modified, added and removed.
+
+Dictionary:
+    key - pair
+    key must be unique
+    {}
+
+
+pip install turtle
+
+Python Functions:
+    built-in function    -> print(),type(),int(),input()
+    user defined function -> user created
+
+    1. function definition
+    2. function call
+
+    def funcName():
+        block of code
+
+Uses:
+    1. Reuse the code
+    2. Code readability
+
+Parameterised function
