@@ -1,9 +1,11 @@
-# fruits = ["mango", "banana", "kiwi", "apple"]
-#
-# for fruit in fruits:                                #mango,banana
-#     print(f"I ate {fruit} in the morning")          #
+"""fruits =["mango", "banana", "kiwi","apple"]
+for fruit in fruits:
+    print(f"I ate {fruit} in the morning")"""
 
-"""WAPP to print numbers from 1 to 100"""
+"""lists = ["red", "blue", "green", "yellow"]
+for list in lists:
+    print(f"I love {list}")"""
 
-
-
+cars = ["vw","ford","Benz","Toyota"]
+for car in cars:
+    print(f"my favorite car is {car}")
