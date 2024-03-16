@@ -159,3 +159,19 @@ Uses:
     2. Code readability
 
 Parameterised function
+
+Class in Python:
+-------------------
+Class is a template for creating objects
+Object is the instance of the class
+
+Syntax:
+    class NAME:
+        -----
+        -----
+
+When ever you create a object for a class init is called automatically.
+
+Diff Function & method?
+    Function and method both are same
+    its called a method only when its inside a class
