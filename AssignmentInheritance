@@ -1,0 +1,43 @@
+Problem Statement: Online Shopping System
+
+You are tasked with developing an online shopping system that allows users to browse products,
+add them to a shopping cart, and place orders. The system should support different types of products,
+such as electronics, clothing, and books.
+
+Requirements:
+
+1. Define a base class Product that represents a generic product.
+It should have attributes such as name, price, and quantity.
+
+2. Implement subclasses for different types of products, such as Electronics, Clothing, and Books.
+Each subclass should inherit from the Product class and include additional attributes and methods
+specific to the product type.
+
+3. Implement a class ShoppingCart that allows users to add products, remove products, view the total price,
+and place orders. It should utilize inheritance to inherit common functionality from a base class.
+
+4. Implement a class User that represents a user of the online shopping system.
+It should have attributes such as name, email, and address.
+
+5. Extend the User class to create subclasses for different types of users, such as Customer and Admin.
+Each subclass should inherit from the User class and include additional attributes and methods specific to
+the user type.
+
+6. Implement appropriate methods for displaying information about products, users, and orders.
+
+Tasks:
+
+1. Design a class hierarchy for the online shopping system, incorporating inheritance, encapsulation, and
+polymorphism.
+
+2. Implement the classes based on the defined class hierarchy.
+3. Create sample instances of products, users, and shopping carts to test the functionality of the system.
+4. Ensure that the system handles different types of products and users correctly, providing appropriate
+functionality and behavior for each.
+
+Additional Considerations:
+
+Handle edge cases and error conditions gracefully.
+Implement validation for user input and data integrity.
+Optimize the system for performance and scalability.
+Provide clear documentation and comments to explain the purpose and usage of each class and method.
