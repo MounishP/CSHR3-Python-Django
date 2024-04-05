@@ -1,5 +1,5 @@
-#wapp to print first n natural number #
-a = 1
-while a <= 10:
-    print(a)
-    a += 1
+sum2 = 0
+n = int(input("Enter the number n"))
+for i in range(1, n):
+sum2 = n*(n+1)/2
+print(sum2)
