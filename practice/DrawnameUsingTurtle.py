@@ -85,29 +85,5 @@ pen.backward(80)
 pen.setheading(50)
 pen.forward(80)
 
-
-
-
-
-
-
-
-
-
-
-
-"""def myname(pen, s, h, a, n, k):
-    pen.up()
-    pen.goto(0, 210)
-    pen.setheading(180)
-    pen.color("green")
-    pen.down()
-    pen.circle(210)"""
-
-
-
-
-
-
 while True:
     screen.update()
