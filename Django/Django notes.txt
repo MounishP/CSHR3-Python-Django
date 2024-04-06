@@ -1,0 +1,88 @@
+Django
+    Web framework
+
+Framework
+    used by developers to build applications
+
+example:
+
+python -> Flask, Django
+Java -> Spring
+Php -> larvel
+C# -> dotnet
+
+preq:
+    - Python -> basics of python, Class, Oops
+    - HTML
+    - CSS
+    - CSS libraries -> bootstrap(optional)
+    - SQL (optional)
+
+Databases
+ - SQL(Tables) => Mysql, sqlite, postgres
+ - NoSql(JSON) => MongoDB
+
+
+{
+    "key":"value",
+}
+
+Resources:
+===============
+https://code.visualstudio.com/download
+
+https://www.youtube.com/watch?v=UB1O30fR-EE
+
+https://www.w3schools.com/html/
+
+https://www.w3schools.com/css/default.asp
+
+Arch 
+
+- MVC
+- MVT
+
+
+M - Model
+V - view
+T - template
+
+Why django popular?
+
+- Multi-language support
+- web dev light weight server
+- ORM
+
+
+Package:
+
+- venv/virtualenv
+- django
+
+commands:
+
+To create virtual environment:
+    python -m venv env
+    python -m virtualenv env
+
+to activate the virtual environment
+    ./env/Scripts/activate
+
+To install django:
+    pip install django
+
+===============================
+Get-ExecutionPolicy
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+===============================
+
+To create a django Project, 
+    django-admin startproject projectName
+
+To Run Django Project.
+    python manage.py runserver
+
+To stop the server, press "Ctrl + C"
+
+To create new user,
+    python manage.py createsuperuser
