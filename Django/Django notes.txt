@@ -65,11 +65,23 @@ To create virtual environment:
     python -m venv env
     python -m virtualenv env
 
-to activate the virtual environment
+to activate the virtual environment in windows
     ./env/Scripts/activate
+
+To activate the virtual environment in MacOS
+    source ./env/bin/activate
+
+To deactivate the virtual environment in both
+    deactivate
 
 To install django:
     pip install django
+
+To get requirements.txt file from your virtual environment,
+    pip freeze > requirements.txt
+
+If you have requirements.txt file. To install all the libraries from that file,
+    pip install -r .\requirements.txt
 
 ===============================
 Get-ExecutionPolicy
@@ -79,10 +91,22 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 To create a django Project, 
     django-admin startproject projectName
 
+To migrate the project with Database
+    python manage.py migrate
+
 To Run Django Project.
     python manage.py runserver
 
 To stop the server, press "Ctrl + C"
 
+VS code Extenstion for sqlite is Sqlite Viewer
+
 To create new user,
     python manage.py createsuperuser
+
+To create app in Django,
+    python manage.py startapp appdemo
+
+To apply migrations with app in project
+    python manage.py makemigrations
+    python manage.py migrate
