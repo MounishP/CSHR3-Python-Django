@@ -99,7 +99,7 @@ To Run Django Project.
 
 To stop the server, press "Ctrl + C"
 
-VS code Extenstion for sqlite is Sqlite Viewer
+VS code Extension for sqlite is Sqlite Viewer
 
 To create new user,
     python manage.py createsuperuser
@@ -110,3 +110,40 @@ To create app in Django,
 To apply migrations with app in project
     python manage.py makemigrations
     python manage.py migrate
+
+To create template folder,
+    In app level, create a templates folder.
+    Create HTML files
+
+To configure the templates,
+    go to settings, Templates = {
+      In  "DIRS" : ['templates'],
+    }
+
+In views
+    def about(request):
+        return render(request, 'about.html')
+
+Template tags
+
+{% tag %}
+
+Ex: {% for %} -> iteration
+    {% if %} -> condition
+    {% else %}
+    {% block %} 
+
+
+Template filters
+
+{{|}}
+
+Ex: {{Variable | filterName}} 
+    |date -> format
+    |length -> find the length
+    |default -> to set default value
+
+Find all templates and filters in below website:
+    https://www.djangotemplatetagsandfilters.com/
+    https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#
+
