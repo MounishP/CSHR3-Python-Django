@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    {% for item in listNum %}
-        <h1>{{item}}</h1>
-    {%endfor%}
+{% extends 'layout.html' %}
+
+{% block title%} 
+    Homepage
+{% endblock%}
+
+{% block body %}
     <a href = '/about'>About</a>
-</body>
-</html>
+    <marquee> Welcome to my blog </marquee>
+    <h1>Cars List</h1>
+    <ol>
+    {% for ele in cars %}
+        <li>{{ele | upper }}</li>
+    {% endfor %}
+    </ol>
+{% endblock %}

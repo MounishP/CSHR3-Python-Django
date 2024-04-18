@@ -1,10 +1,12 @@
-<html>
-<head>
-    <title>Homepage</title>
-</head>
-<body>
+{% extends 'layout.html'%}
+
+{% block title %}
+    About Page
+{% endblock %}
+
+{% block body%}
     <h1>About page</h1>
     <h2>My name is {{name}}</h2>
     <a href='/'>Home Page</a>
-</body>
-</html>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+<html>
+{% load static %}
+<head>
+    <title>{% block title%} {% endblock%}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
+   <script src="{% static 'js/script.js'%}" /> 
+</head>
+<body>
+    {% block body%}
+
+    {% endblock %}
+</body>
+</html>

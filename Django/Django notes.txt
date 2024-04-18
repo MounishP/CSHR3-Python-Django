@@ -134,6 +134,7 @@ Ex: {% for %} -> iteration
     {% block %} 
 
 
+
 Template filters
 
 {{|}}
@@ -146,4 +147,19 @@ Ex: {{Variable | filterName}}
 Find all templates and filters in below website:
     https://www.djangotemplatetagsandfilters.com/
     https://docs.djangoproject.com/en/5.0/ref/templates/builtins/#
+
+Boolean operators
+
+>, <,  !,
+
+Template inheritance 
+
+Static files:
+    create a static folder in base folder of the prject
+
+    To configure the static,
+        import os
+        STATICFILES_DIRS =[
+            os.path.join(BASE_DIR, 'static')
+        ]
 
