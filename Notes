@@ -175,3 +175,22 @@ When ever you create a object for a class init is called automatically.
 Diff Function & method?
     Function and method both are same
     its called a method only when its inside a class
+
+OOPS:
+    1. Inheritance
+        1. Single
+        2. Multiple
+        3. Multilevel
+        4. Hierarchical
+        5. Hybrid
+    2. Polymorphism -> One instance behaving or having multiple functionality
+        1. Compile time(Static Polymorphism)
+            Method Overloading -> same name but different parameters
+        2. Run time (Dynamic Polymorphism)
+            Method Over ridding
+    3. Encapsulation
+    4. Abstraction
+
+Exception Handling:
+    Error handling
+    try .... except
