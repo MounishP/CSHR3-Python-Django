@@ -163,3 +163,28 @@ Static files:
             os.path.join(BASE_DIR, 'static')
         ]
 
+
+Models:
+    Fields and their behaviors
+
+    one model -> single table in a db
+
+After creating every model, we have run migrations
+    python manage.py makemigrations
+    python manage.py migrate
+
+
+ORM -> object Relation model
+
+    - bridges gap b/w our models and db
+
+    operations in ORM
+        - Add/create
+        - delete
+        - update
+        - retrive
+        - query object(exclude, filter)
+
+
+Queryset
+    
