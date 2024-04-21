@@ -187,4 +187,50 @@ ORM -> object Relation model
 
 
 Queryset
-    
+    Collection of db query results that you can manipulate and interact with various methods of ORM
+
+ORM Queries
+============
+
+
+class Person(models.Model):
+    name = models.CharField(max_length=50)
+    age = models.IntegerField()
+    email = models.EmailField()
+
+    def __str__(self):
+        return self.name
+
+To add the model in admin site, go to admin site
+    from Person.models import Person
+    admin.site.register(Person)
+
+After add model, do migrations
+    python manage.py makemigrations
+    python manage.py migrate
+
+To run the django shell,
+    python manage.py shell
+
+-> Create or Add in the DB
+    P1 = Person(name='sampath',age=30,email='sampath@gmail.com)
+    P1.save()
+
+-> To retrive all data from the DB table
+    Person.objects.all()
+
+-> To update a particular record,
+    P1 = Person(name='sampath',age=30,email='sampath@gmail.com)
+    P1.age = 25
+    P1.save()
+
+-> To delete particular record,
+    P1 = Person(name='sampath',age=30,email='sampath@gmail.com)
+    P1.delete()
+
+-> To filter based on certain condition,
+    Person.objects.filter(age=30)
+
+-> To exclude some record base on condition,
+    Person.objects.exclude(age=30)
+
