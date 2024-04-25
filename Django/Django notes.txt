@@ -186,7 +186,7 @@ ORM -> object Relation model
         - query object(exclude, filter)
 
 
-Queryset
+QuerySet
     Collection of db query results that you can manipulate and interact with various methods of ORM
 
 ORM Queries
