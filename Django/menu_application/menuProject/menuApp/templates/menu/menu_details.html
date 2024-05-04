@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Menu Details
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+         <img src="{{menu.image.url}}" alt="{{menu.name}}">
+            <div class="card-body">
+                <h5>{{menu.name}}</h5>
+                <p>{{menu.description}}</p>
+                <p>{{menu.price}} $</p>
+            </div>
+
+        <button class="btn btn-warning">Edit</button>
+        <a href="{% url 'menu_delete' pk=menu.id %}"><button class="btn btn-danger">Delete</button></a>
+        <a href="/menus"><button class="btn btn-success">Back to menu list</button></a>
+    </div>
+{% endblock %}

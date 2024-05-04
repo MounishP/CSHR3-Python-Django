@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Menu delete confirmation
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Do you want to delete {{menu.name}}?</h2>
+    <form action="{% url 'menu_delete' pk=menu.id%}" method="post">
+        {% csrf_token %}
+        <input type="submit" class="btn btn-danger" value="Delete item">
+    </form>
+    <a href="/menus"><button class="btn btn-success">Menu list</button></a>
+</div>
+{% endblock %}
