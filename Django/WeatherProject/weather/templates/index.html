@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+
+    <nav class="row" style="background-color: green;
+    color: whitesmoke;" >
+        <h1 class="col-md-5 text-center p-2 align-self-center">Weather App</h1>
+    </nav>
+    <br/>
+    <br/>
+
+    <center class="container">
+        <form action="" method="post" >
+            {% csrf_token %}
+            <input type="text" class="form-control" name="city" id="city" placeholder="Enter City"/>
+            <button class="btn btn-success m-3" type="submit"><i class="fa fa-search" aria-hidden="true"></i>search</button>
+        </form>
+    </center>
+
+    <div class="container mt-3">
+        <h4>Weather Data</h4>
+        <div class="row">
+            {% if country and temperature and humidity and pressure %}
+            <div class=" mt-3">
+                <h6>Name: {{name}}</h6>
+                <h6>Country: {{country}}</h6>
+                <h6>Description: {{description}}</h6>
+                <h6>Latitude: {{latitude}}</h6>
+                <h6>Longitude: {{longitude}}</h6>
+                <h6>Temperature: {{temperature}}</h6>
+                <h6>Pressure: {{pressure}}</h6>
+                <h6>Humidity: {{humidity}}</h6>
+            </div>
+            
+            {% endif %}
+        </div>
+        </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

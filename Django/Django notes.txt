@@ -234,3 +234,66 @@ To run the django shell,
 -> To exclude some record base on condition,
     Person.objects.exclude(age=30)
 
+CSS 
+
+-> Inline CSS
+-> External CSS
+-> Css Frameworks -> bootstrap, tailwind, material ui ....
+
+
+Weather API sign up
+https://home.openweathermap.org/users/sign_up
+
+
+6b59eab76101e1f5bbfe9ac7c53e2786
+
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=6b59eab76101e1f5bbfe9ac7c53e2786
+
+
+- To call external api we use "urllib" package.
+
+"weather": [
+    {
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    },
+    {
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    },{
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    },{
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    }
+  ],
+
+
+weather = [
+    {
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    }, 
+    "ghj",
+    {
+      "id": 501,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    },
+    [1,2,34]
+]
+  
+
+  weather[4][2]
